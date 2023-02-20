@@ -42,16 +42,32 @@ header {
     height: 80px;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+ul {
+    list-style: none;
+}
+
+header nav ul {
+    display: none;
+}
+
+header nav a {
+    color: var(--light-color);
+}
 
 /*main*/
 main {
     margin-top: 80px;
 }
 
-.even{
+.even {
     background-color: var(--primary-color);
-}   
+}
 
 /*footer*/
 footer {

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*color styles*/
+:root {
+    --secondary-color: #0084FD;
+    --dark-color: #333333;
+    --light-color: #FFFFFF;
+    --primary-color: #9792E4;
+    --bg-card: #B5DDFF;
+    --contrast-color: #fCC060;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--light-color);
+}
+
+.container {
+    padding: 15px;
+}
+.text-center{
+    text-align: center;
+}

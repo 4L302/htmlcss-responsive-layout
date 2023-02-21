@@ -27,8 +27,21 @@ body {
     padding: 15px;
 }
 
+/*utility*/
+.text-center{
+    text-align: center;
+}
+
 .text-center {
     text-align: center;
+}
+
+.ptop-20{
+    padding-top: 20px;
+}
+
+.p-30-15{
+    padding: 30px 15px;
 }
 
 /*header*/
@@ -46,6 +59,10 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+svg {
+    width: 1em;
 }
 
 ul {
@@ -69,8 +86,52 @@ main {
     background-color: var(--primary-color);
 }
 
+.card {
+    background-color: var(--bg-card);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card .image{
+    max-width: 100%;
+}
+main i{
+    font-size: 5em;
+    color: var(--secondary-color);
+}
+
+.btn-blue{
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+}
+
+main a{
+    text-decoration: none;
+}
+
 /*footer*/
 footer {
     background-color: var(--dark-color);
     color: var(--light-color);
+}
+
+/*responsive*/
+
+@media screen and (min-width: 768px) {
+    .d-flex{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 10px;
+    }
+    #intro .card{
+        width: calc((100% / 3) - 10px);
+    }
+    #intro .card:first-child{
+        width: calc((100% / 3 * 2) - 10px);
+    }
+}
+
+@media screen and (min-width: 480px){
+    
 }

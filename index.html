@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Responsive Layout</title>
@@ -17,33 +20,71 @@
 <body>
     <header>
         <div class="container">
-            <img src="./img/logo.png" alt="logo">
-            <a href="#">
-                <i class="fa-solid fa-bars"></i>
-            </a>
-            <ul>
-                <li>
-                    <a href="#planning">Planning</a>
-                </li>
-                <li>
-                    <a href="#partners">Partners</a>
-                </li>
-                <li>
-                    <a href="#features">Features</a>
-                </li>
-                <li>
-                    <a href="#about-us">About Us</a>
-                </li>
-                <li>
-                    <a href="#call-to-action">Get Started</a>
-                </li>
-            </ul>
+            <nav>
+                <img src="./img/logo.png" alt="logo">
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#planning">Planning</a>
+                    </li>
+                    <li>
+                        <a href="#partners">Partners</a>
+                    </li>
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#call-to-action">Get Started</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <section id="intro">
-            <div class="container">
-                intro
+            <div class="container d-flex">
+                <div class="card text-center">
+                    <div class="card-left">
+                        <h3 class="ptop-20">Get a demo application</h3>
+                        <p class="p-30-15">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias veritatis necessitatibus
+                            atque nesciunt aperiam suscipit enim deserunt tenetur cupiditate earum!</p>
+                            <a class="btn.blue" href="#"><i class="fa-brands fa-apple"></i>App Store</a>
+                        </div>
+                    <img class="image" src="./img/phone.png" alt="">
+                </div>
+                <div class="card text-center">
+                    <i class="icon fa-solid fa-file-code ptop-20"></i>
+                    <h3 class="ptop-20">Clean Code</h3>
+                    <p class="p-30-15">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat possimus iure dolore,
+                        quibusdam explicabo repudiandae ipsum delectus. Est iure commodi nemo delectus dignissimos
+                        aperiam fugiat rerum perspiciatis aut eos? Eius?</p>
+                </div>
+                <div class="card text-center">
+                    <i class="fa-solid fa-compass-drafting ptop-20"></i>
+                    <h3 class="ptop-20">Web Design</h3>
+                    <p class="p-30-15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam ducimus odit distinctio
+                        voluptatum ea placeat ullam iste accusantium, dolores quas officiis consequatur, non unde
+                        tempore? Tenetur molestiae consequatur nam?</p>
+                </div>
+                <div class="card text-center">
+                    <i class="fa-solid fa-laptop-code ptop-20"></i>
+                    <h3 class="ptop-20">Developement</h3>
+                    <p class="p-30-15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eius accusamus suscipit repellat
+                        sint eos, explicabo magni porro aliquid quasi ducimus non nobis alias similique qui, tenetur
+                        maiores eum nulla!</p>
+                </div>
+                <div class="card text-center">
+                    <i class="fa-sharp fa-solid fa-bullhorn ptop-20"></i>
+                    <h3 class="ptop-20">Branding</h3>
+                    <p class="p-30-15">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quaerat blanditiis, vitae quod
+                        reiciendis corporis sint fuga, magni hic consequatur ex enim adipisci minima iure reprehenderit
+                        natus accusamus. Distinctio, ea.</p>
+                </div>
             </div>
         </section>
         <section class="even" id="planning">

@@ -55,6 +55,39 @@ body {
     border-radius: 20px;
 }
 
+#apple{
+    font-size: 1rem;
+    padding-right: 5px;
+}
+.btn-purple{
+    display: inline-block;
+    padding: 6px 30px;
+    border-radius: 15px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+.btn-blue {
+    display: inline-block;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    padding: 6px 30px;
+    border-radius: 15px;
+}
+
+.light-title{
+    color: var(--light-color);
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
 /*header*/
 header {
     background-color: var(--secondary-color);
@@ -100,8 +133,13 @@ main {
 .card {
     padding: 20px;
     background-color: var(--light-color);
+    margin-bottom: 10px;
 }
 
+.icon{
+    font-size: 2rem;
+    color: var(--light-color);
+}
 .card .image {
     max-width: 100%;
 }
@@ -114,6 +152,19 @@ main {
 #intro .card h3,
 #intro .card i {
     color: var(--secondary-color);
+}
+
+#testimonials h4{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#testimonials h2{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+#planning img{
+    width: 100%;
 }
 
 #testimonials .card{
@@ -135,17 +186,24 @@ main {
     height: 100%;
     object-fit: cover;
 }
+
+#benefits .card h3, #benefits .card h4{
+    color: var(--primary-color);
+    padding-bottom: 10px;
+}
+
+#benefits .card h4{
+    font-size: 3rem;
+}
+
+#benefits .card p{
+    padding-bottom: 20px;
+}
 main i {
     font-size: 5em;
     color: var(--secondary-color);
 }
 
-.btn-blue {
-    display: block;
-    color: var(--light-color);
-    background-color: var(--secondary-color);
-    padding: 6px 12px;
-}
 
 main a {
     text-decoration: none;
